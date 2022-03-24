@@ -12,3 +12,5 @@ object RecordBuilder {
 final class RecordBuilder private (underlying: Map[Any, Any]) {
 ```
 For now, we'll just use `Map.empty` as the initial value, but we'll come back here later on and populate initial values.
+
+[Next page](03-constraining-value-types.md)
