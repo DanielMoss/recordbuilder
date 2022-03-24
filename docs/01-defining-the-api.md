@@ -23,3 +23,5 @@ final class RecordBuilder(underlying: Map[Any, Any]) {
 }
 ```
 The code we've introduced has a lot of problems. Let's start addressing them.
+
+[Next page](02-locking-down-instance-creation.md)

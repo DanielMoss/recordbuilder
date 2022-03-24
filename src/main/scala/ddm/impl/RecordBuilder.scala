@@ -4,7 +4,12 @@ import shapeless.{HList, HNil}
 
 import scala.util.chaining.scalaUtilChainingOps
 
-final class RecordBuilder(underlying: Map[Any, Any]) {
+object RecordBuilder {
+  def apply(): RecordBuilder =
+    new RecordBuilder(Map.empty)
+}
+
+final class RecordBuilder private (underlying: Map[Any, Any]) {
   def set[K, V](k: K, v: V): RecordBuilder =
     new RecordBuilder(underlying + (k -> v))
 
