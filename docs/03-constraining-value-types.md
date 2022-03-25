@@ -47,4 +47,6 @@ This code passes compilation, but if we were to change the last line to `builder
 [error]                       ^
 ```
 
+[Next page](04-populating-initial-keys.md)
+
 [^1]: In theory we could use [literal types](https://docs.scala-lang.org/sips/42.type.html), but type inference can get a little confusing when you do that.
