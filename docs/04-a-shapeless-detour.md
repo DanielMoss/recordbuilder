@@ -160,5 +160,7 @@ Effectively, we've defined an object `concat`, which extends a trait `PolyN`, wh
 ```
 We can combine these functions with `HList`s and `Coproduct`s, thus giving is further flexibility in how we can act on `HList`s and `Coproduct`s in a type-safe manner. We'll see how to do this later.
 
+[Next page](05-initialising-the-map.md)
+
 [^1]: Generic instances are not provided for non-sealed traits, as the Scala compiler is only able to determine a complete list of subtypes for sealed traits.
 [^2]: Scala 3 actually supports this, removing the need for the `Aux` pattern. 
