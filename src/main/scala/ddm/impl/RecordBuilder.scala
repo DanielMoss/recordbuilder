@@ -26,6 +26,9 @@ object RecordBuilder {
 
   trait Key {
     type Value
+
+    implicit final lazy val typeLink: TypeLink[this.type, Value] =
+      new TypeLink[this.type, Value] {}
   }
 }
 

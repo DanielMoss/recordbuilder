@@ -100,3 +100,5 @@ Putting it all together, we know we're going to need
 - a `Typeable[k.V]` for each value, which we'll assume exists
 
 Once we've got a list of instances of these types for all key-value pairs in our `Map`, we should be able to fold over that list to create an appropriate `FromMap` instance, where the zeroth case is covered by `hnilFromMap`.
+
+[Next page](07-producing-a-record.md)
