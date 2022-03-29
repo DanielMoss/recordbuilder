@@ -120,3 +120,5 @@ println(builder)                // Prints RecordBuilder(Field1 -> None, Field2 -
 println(builder.set(Field2)(3)) // Prints RecordBuilder(Field1 -> None, Field2 -> Some(3))
 ```
 Awesome!
+
+[Next page](06-understanding-frommap.md)
